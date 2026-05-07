@@ -1,7 +1,7 @@
 ## SQL Protseduurid
 - store procedure - salvestatus protseduurid - хранимые процедуры
 - sama nagu funktsioonid programmerimises - mingid tegevused, mis käivitakse automaatselt protseduuri kasutamisel.
-  ```
+```
 CREATE PROCEDURE lisaGuest
 --@parameetrid
 @uusNimi varchar(25),
@@ -14,7 +14,7 @@ BEGIN
 	VALUES (@uusNimi, @uusPerenimi, @kuupaev);
 	SELECT * FROM guest;
 END
-  ```
+```
 <img width="215" height="433" alt="{7066B50D-7103-4E8A-8892-689AC24551A3}" src="https://github.com/user-attachments/assets/2c027d3f-b0b5-40d9-8e34-8908d6e7e6e3" />
 <img width="426" height="336" alt="{DA8D853B-889B-40DD-B468-53C285B93BBD}" src="https://github.com/user-attachments/assets/34be1baa-8574-4fff-a101-fe0e8c38564f" />
   ```
