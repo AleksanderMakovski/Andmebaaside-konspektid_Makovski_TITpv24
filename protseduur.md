@@ -1,7 +1,7 @@
 ## SQL Protseduurid
 - store procedure - salvestatus protseduurid - хранимые процедуры
 - sama nagu funktsioonid programmerimises - mingid tegevused, mis käivitakse automaatselt protseduuri kasutamisel.
-  ```sql
+  ```
 CREATE PROCEDURE lisaGuest
 --@parameetrid
 @uusNimi varchar(25),
