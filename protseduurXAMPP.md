@@ -11,3 +11,7 @@ CREATE TABLE loomad(
 
 Vajuta nuppu teosta et käivitada protseduuri!
 
+
+## Protseduur, mis lisab uue looma andmeid tabelisse ja kohe kuvab neid
+
+<img width="654" height="412" alt="{E1626263-E873-43C5-A74E-8E806FF80F6F}" src="https://github.com/user-attachments/assets/d9b66f04-60bb-4be7-90ec-58fa8674c1e5" />
