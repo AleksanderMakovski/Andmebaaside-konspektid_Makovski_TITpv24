@@ -4,7 +4,7 @@
 
 andmebaasidega seotud SQL kood ja konspektid
 ## Sisukord 
-- [Põhimõisted](#pohimoisted)
+- [Põhimõisted](#põhimõisted)
 - [Andmetüübid](#andmetüübid)
 - [SEOSED](#SEOSED)
 - [Piirangud](#Piirangud)
