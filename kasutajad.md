@@ -1,6 +1,6 @@
 1.-
 
-´´´sql
+```sql
   CREATE DATABASE kasutajaMakovski;
 
 USE kasutajaMakovski;
@@ -29,11 +29,11 @@ GRANT UPDATE(vanus) ON loomad TO direktorMakovski;
 
 DENY DELETE ON loomad TO direktorMakovski;
 
-´´´
+```
 
 2.-
 
-´´´sql
+```sql
   --Õiguste kontroll
 --direktorRene saab vaadata  tabelisisu
 SELECT * FROM loomad;
@@ -55,11 +55,11 @@ SELECT * FROM fn_my_permissions('loomad','OBJECT')
 --uuendamine vanus kus loomId=1
 UPDATE loomad SET vanus=555 WHERE loomId=1;
 UPDATE loomad SET chip=0 WHERE loomId=1;
-´´´
+```
 
 3.-
 
-´´´sql
+```sql
   CREATE DATABASE MovieBase;
 
 USE MovieBase;
@@ -93,4 +93,4 @@ INSERT INTO guest (name)
 VALUES ('Aleksander'), ('Rene'), ('Marko'),
 ('Vanya'), ('Nikita'), ('Nastya'),('Margarita');
 
-´´´
+```
