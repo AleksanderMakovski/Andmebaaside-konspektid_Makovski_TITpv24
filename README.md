@@ -1,10 +1,10 @@
 # Andmebaaside konspektid - Aleksander Makovski
 
-[Põhimõsted](README.md) | [Protseduurid](protseduur.md)
+[Põhimõsted](README.md) | [Protseduurid](protseduur.md) | [Trigerid](triger.md) | [HotelliRuumid](hotelliruum.md)
 
 andmebaasidega seotud SQL kood ja konspektid
 ## Sisukord 
-- [Põhimõisted](#põhimõisted)
+- [Põhimõisted](#pohimoisted)
 - [Andmetüübid](#andmetüübid)
 - [SEOSED](#SEOSED)
 - [Piirangud](#Piirangud)
