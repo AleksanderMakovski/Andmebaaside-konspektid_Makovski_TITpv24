@@ -81,7 +81,8 @@ select * from linnad;
 select * from logi;
 ```
 
-<img width="676" height="422" alt="{7B4683EC-CAE3-4E26-B424-ADAC0D465A12}" src="https://github.com/user-attachments/assets/68bfd2a5-57cb-401f-926d-1a851f69878e" />
+<img width="639" height="536" alt="{7789F4AA-D536-4F7D-A68B-AE89D8C0196F}" src="https://github.com/user-attachments/assets/7086c4ec-9433-4446-8d52-e5a8de134e6f" />
+
 
 
 ```sql
