@@ -1,6 +1,6 @@
 # Andmebaaside konspektid - Aleksander Makovski
 
-[Põhimõsted](README.md) | [Protseduurid](protseduur.md) | [Trigerid](triger.md) | [HotelliRuumid](hotelliruum.md)
+[Põhimõsted](README.md) | [Protseduurid](protseduur.md) | [Trigerid](triger.md) | [HotelliRuumid](hotelliruum.md) | [Kasutajad](kasutajad.md)
 
 andmebaasidega seotud SQL kood ja konspektid
 ## Sisukord 
