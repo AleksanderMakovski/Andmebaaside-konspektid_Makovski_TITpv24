@@ -1,3 +1,8 @@
+# Andmebaaside konspektid - Aleksander Makovski
+
+[Põhimõsted](pohimoisted.md) | [Protseduurid](protseduur.md) | [Protseduurid XAMPP](protseduurXAMPP.md) | [Trigerid](triger.md) | [HotelliRuumid](hotelliruum.md) | [Kasutajad](kasutajad.md) | [Keys Kodutöö](keys.md)
+
+
 ## trigger - triger - päastik
 andmebaasi objekt, mis automaatselt käivitud tabeli sündmused(INSERT, UPDATE, DELETE)
 ```sql
