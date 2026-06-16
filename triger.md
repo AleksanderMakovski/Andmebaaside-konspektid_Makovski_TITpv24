@@ -106,5 +106,37 @@ UPDATE linnad SET linnanimi='pärnu-väike', rahvaarv=50 WHERE linnID=2;
 
 select * from linnad;
 select * from logi;
+
+CREATE TRIGGER linnaLisaKustuta
+ON linnad --tabelinimi, mis on vaja jälgida
+FOR DELETE, INSERT
+AS
+BEGIN
+	INSERT INTO logi(kasutaja, aeg, toiming, andmed)
+	SELECT
+	SYSTEM_USER,
+	GETDATE(),  --aeg
+	'on tehtud DELETE käsk',  --toiming
+	concat('linn: ', deleted.linnanimi, ' rahvarv: ', deleted.rahvaarv)  --andmed
+	FROM deleted
+
+	UNION ALL
+
+	SELECT
+	SYSTEM_USER,
+	GETDATE(),  --aeg
+	'on tehtud INSERT käsk',  --toiming
+	concat('linn: ', inserted.linnanimi, ' rahvarv: ', inserted.rahvaarv)  --andmed
+	FROM inserted;
+END;
+
+INSERT INTO linnad(linnanimi, rahvaarv)
+VALUES ('Tallinn', 1488);
+
+DELETE FROM linnad WHERE lindID=2;
+
+SELECT * FROM logi;
+SELECT * FROM linnad;
 ```
+
 <img width="671" height="417" alt="{9019CAFD-CAE0-440F-9FCE-71D28FC65E0B}" src="https://github.com/user-attachments/assets/078d6c17-0c2b-4564-a787-0b6ec363b9ee" />
