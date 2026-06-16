@@ -1,3 +1,9 @@
+# Andmebaaside konspektid - Aleksander Makovski
+
+[Põhimõsted](pohimoisted.md) | [Protseduurid](protseduur.md) | [Protseduurid XAMPP](protseduurXAMPP.md) | [Trigerid](triger.md) | [HotelliRuumid](hotelliruum.md) | [Kasutajad](kasutajad.md) | [Keys Kodutöö](keys.md)
+
+
+
 ## SQL Protseduurid
 - store procedure - salvestatus protseduurid - хранимые процедуры
 - sama nagu funktsioonid programmerimises - mingid tegevused, mis käivitakse automaatselt protseduuri kasutamisel.
