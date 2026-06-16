@@ -1,3 +1,7 @@
+# Andmebaaside konspektid - Aleksander Makovski
+
+[Põhimõsted](pohimoisted.md) | [Protseduurid](protseduur.md) | [Protseduurid XAMPP](protseduurXAMPP.md) | [Trigerid](triger.md) | [HotelliRuumid](hotelliruum.md) | [Kasutajad](kasutajad.md) | [Keys Kodutöö](keys.md)
+
 ```sql
 CREATE TABLE loomad(
    loomId int primary key AUTO_INCREMENT,
